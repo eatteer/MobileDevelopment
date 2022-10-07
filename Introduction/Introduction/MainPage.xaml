@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Introduction.MainPage"
+             BackgroundColor="#fefae0">
+
+    <StackLayout VerticalOptions="Fill"  Padding="32">
+        <Label Text="Welcome to Xamarin" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" FontSize="32" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="#33332d" />
+        <StackLayout HorizontalOptions="Center" WidthRequest="230" >
+            <Button Text="Login"  CornerRadius="6"/>
+            <Button Text="Register" TextColor="#33332d" BackgroundColor="Transparent"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
